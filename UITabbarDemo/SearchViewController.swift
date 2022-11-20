@@ -18,6 +18,17 @@ class SearchViewController: UIViewController {
         collectionView.delegate = self
         
         estimateItemSizeToZero()
+        
+        addSearchController()
+    }
+    
+    func addSearchController() {
+        self.navigationItem.title = "Search"
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.hidesNavigationBarDuringPresentation = false
+        searchController.searchBar.placeholder = "Search..."
+        searchController.searchResultsUpdater = self
+        self.navigationItem.searchController = searchController
     }
     
     func estimateItemSizeToZero() {
@@ -61,3 +72,11 @@ extension SearchViewController : UICollectionViewDelegateFlowLayout {
     }
 }
 
+extension SearchViewController : UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        let search = searchController.searchBar.text
+        print("Search: \(search)")
+    }
+    
+    
+}
