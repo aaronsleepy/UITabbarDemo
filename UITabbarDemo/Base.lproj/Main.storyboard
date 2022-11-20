@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="1111" y="-887"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="vjZ-qk-3bx">
             <objects>
-                <viewController id="ni0-gg-GB0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="ni0-gg-GB0" customClass="HomeViewController" customModule="UITabbarDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0hB-LE-fnm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,6 +171,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="YAo-9n-7J7"/>
+                    <connections>
+                        <outlet property="collectionView" destination="FGh-QX-Nvq" id="Ime-yf-hcj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PzM-tm-4Od" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

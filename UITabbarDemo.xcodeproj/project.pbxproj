@@ -16,6 +16,7 @@
 		9340ED9D2929EEE200D228AE /* UITabbarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ED9C2929EEE200D228AE /* UITabbarDemoTests.swift */; };
 		9340EDA72929EEE200D228AE /* UITabbarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EDA62929EEE200D228AE /* UITabbarDemoUITests.swift */; };
 		9340EDA92929EEE200D228AE /* UITabbarDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EDA82929EEE200D228AE /* UITabbarDemoUITestsLaunchTests.swift */; };
+		938238BD292A01EB00D5DE6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938238BC292A01EB00D5DE6D /* HomeViewController.swift */; };
 		93C76CFE2929F09500FD1058 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C76CFD2929F09500FD1058 /* ResultCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		9340EDA22929EEE200D228AE /* UITabbarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabbarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9340EDA62929EEE200D228AE /* UITabbarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabbarDemoUITests.swift; sourceTree = "<group>"; };
 		9340EDA82929EEE200D228AE /* UITabbarDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabbarDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		938238BC292A01EB00D5DE6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		93C76CFD2929F09500FD1058 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				9340ED872929EEE100D228AE /* SceneDelegate.swift */,
 				9340ED892929EEE100D228AE /* SearchViewController.swift */,
 				9340ED8B2929EEE100D228AE /* Main.storyboard */,
+				938238BC292A01EB00D5DE6D /* HomeViewController.swift */,
 				93C76CFD2929F09500FD1058 /* ResultCell.swift */,
 				9340ED8E2929EEE200D228AE /* Assets.xcassets */,
 				9340ED902929EEE200D228AE /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938238BD292A01EB00D5DE6D /* HomeViewController.swift in Sources */,
 				9340ED8A2929EEE100D228AE /* SearchViewController.swift in Sources */,
 				9340ED862929EEE100D228AE /* AppDelegate.swift in Sources */,
 				93C76CFE2929F09500FD1058 /* ResultCell.swift in Sources */,
